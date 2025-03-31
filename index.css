@@ -1,0 +1,104 @@
+
+
+body {
+    background-color: #000c19
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px
+}
+
+h1:first-letter {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Impact 'Arial Narrow Bold', sans-serif
+}
+
+h2 {
+    text-align: center;
+    color: white
+}
+
+@keyframes defilant {
+    from {
+        transform: translateX(-500px)
+    }
+
+    to {
+        transform: translateX(500px)
+    }
+}
+
+.defilant {
+    text-align: center;
+    animation: defilant 8s linear infinite;
+    color: white;
+    font-size: 20px;
+    /*display: inline-block*/
+    ;
+    white-space: nowrap;
+    width: 100%
+}
+
+.contenudefilant {
+    overflow-x: hidden;
+    width: 100%
+}
+
+
+button {
+    font-size: 25px;
+    color: #000c19;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #ADD8E6;
+    border-width: 5px;
+    margin-left: 30px
+}
+
+.galerie {
+    color: white;
+    font-size: 35px
+}
+
+#autre {
+   
+    flex-direction: column;
+
+}
+
+#autre button {
+    margin-left: unset
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center
+}
+
+.imageaccueil {
+    
+    width: 83%
+}
+
+.blason img {
+    width: 150px;
+    
+}
+
+.blason { padding-right: 30px;
+align-self: center;
+display: flex
+;}
+
+.gauche {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+
+.placement {
+    display: flex
+}
